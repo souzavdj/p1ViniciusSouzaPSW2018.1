@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.1" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd">
+  <tlib-version>1.0</tlib-version>
+  <short-name>tagsLib</short-name>
+  <uri>/WEB-INF/tagsLib</uri>
+  <tag>
+    <name>BuscarSubContasTagController</name>
+    <tag-class>com.cefetrj.br.p1viniciussouza.view.BuscarSubContasTagController</tag-class>
+    <body-content>empty</body-content>
+    <attribute>
+      <name>conta</name>
+      <required>false</required>
+      <type>com.cefetrj.br.p1viniciussouza.model.ContaOrcamento</type>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+  </tag>
+</taglib>
